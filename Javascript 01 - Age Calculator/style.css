@@ -82,3 +82,26 @@ input[type="button"] {
 input[type="button"]:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .block-container {
+        width: fit-content;
+        flex-direction: column;
+    }
+
+    .block {
+        width: 150px;
+    }
+
+    input[type="text"] {
+        width: 150px;
+        border-radius: 15px;
+        margin: 10px 0;
+
+    }
+
+}
